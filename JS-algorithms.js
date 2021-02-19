@@ -17,16 +17,13 @@ function sleepIn(weekday, vacation) {
   
 }
 
-
-
-
 // We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
 
 // Examples
-
 // monkeyTrouble(true, true) → true
 // monkeyTrouble(false, false) → true
 // monkeyTrouble(true, false) → false
+
 function monkeyTrouble(aSmile, bSmile){
   if (aSmile === bSmile)
     return true
@@ -66,3 +63,11 @@ function sumDouble(a, b){
 // diff21(19) → 2
 // diff21(10) → 11
 // diff21(21) → 0
+
+function diff21(n){
+  
+  if (n <= 21)
+    return 21-n
+  else (n >= 21)
+    return (n-21)*2
+ }
