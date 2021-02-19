@@ -1,2 +1,2 @@
 # javascript-algos
-some Javascript algorithm practice
+## practicing  Javascript Algorithms
