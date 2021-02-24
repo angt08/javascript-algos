@@ -108,8 +108,9 @@ function diff21(n){
 
 function makes10(a, b){
   
-  if ( a <= 10 || b <= 10 || a+b <= 10 ){
+  if ( a === 10 || b === 10 ){
     return true                    
- }
-  // this answer only passes like 7 our of the 9 tests
+ }else if (a+b === 10)
+   return true
+  else return false
 }
